@@ -1,0 +1,88 @@
+
+header{
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(55, 52, 49);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.2vw;
+}
+
+ul li{
+    padding: 1vw 2vw;
+    
+    // background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li:hover{
+    background-color: rgb(33, 32, 32);
+    transition: .2s ease-in-out;
+}
+.footer{
+    border: 1px solid gray;
+    height: 50vh;
+    background-color: rgba(128, 128, 128, 0.401);
+    margin-top: 3vw;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+button{
+    padding: 1vw;
+    background-color: green;
+    font-weight: 700;
+
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.bottom .logo i{
+ font-size: 1.2vw;
+ margin-left: 1.1vw;
+}
+
+.links{
+    display: flex;
+    color: black;
+}
+.links h3{
+    margin-left: 1.2vw;
+    background-color: none;
+    color: black;
+    padding: 0.3vw 1.2vw;
+    text-decoration: underline;
+}
+
+.links h3 a{
+    color: black;
+
+}
+
+

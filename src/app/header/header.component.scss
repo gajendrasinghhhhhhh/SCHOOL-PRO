@@ -1,0 +1,148 @@
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 100vw;
+    height: 100vh;
+    // background-color: crimson;
+}
+
+.left img{
+    height: 100vh;
+    width: 100%;
+}
+.possible{
+    position: relative;
+    top: -12vw;
+    margin-left: 1.2vw;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.what{
+    position: relative;
+    top: -14vw;
+    margin-left: 1.2vw;
+}
+
+.visit{
+    position: relative;
+    top: -13vw;
+    margin-left: 1vw;
+    padding: 0.5vw 2vw;
+    background: transparent;
+    border: 3px solid green;
+}
+
+
+.left p{
+    margin-top: 3vw;
+    font-size: 13px;
+}
+
+
+.imgcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.bharat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3vw;
+    font-size: 1.3vw;
+}
+
+.bharat h3{
+    font-size: 2.2vw;
+}
+.bharat p{
+    color: grey;
+}
+span{
+    color: royalblue;
+}
+.grow{
+    position: relative;
+}
+.grow4{
+    position: absolute;
+    top: -60%;
+    transition: transform .3s ease-in;
+    opacity: 0;
+    border-radius: 10px;
+}
+.grow:hover .grow4{
+    opacity: 1;
+    top: 0%;
+    transform: translateY(40%);
+    background-color: rgba(220, 20, 60, 0.485);
+}
+
+.support{
+    position: relative;
+}
+
+.support .grow3{
+    position: absolute;
+    top: -60%;
+    transition: transform .3s ease-in;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.support:hover .grow3{
+    opacity: 1;
+    top: 0%;
+    transform: translateY(40%);
+    background-color: rgba(220, 20, 60, 0.485);
+}
+.teach{
+    position: relative;
+}
+
+.grow2{
+    position: absolute;
+    top: -60%;
+    transition: transform .3s ease-in;
+    opacity: 0;
+    border-radius: 10px;
+
+}
+
+.teach:hover .grow2{
+    opacity: 1;
+    top: 0%;
+    transform: translateY(40%);
+    background-color: rgba(220, 20, 60, 0.485);
+}
+
+.enroll{
+    position: relative;
+}
+
+.enroll .grow1{
+    position: absolute;
+    top: -60%;
+    transition: transform .3s ease-in;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.enroll:hover .grow1{
+    opacity: 1;
+    top: 0%;
+    transform: translateY(40%);
+    background-color: rgba(220, 20, 60, 0.485);
+}

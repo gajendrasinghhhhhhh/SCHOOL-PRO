@@ -1,0 +1,21 @@
+<button type="button" (click)="getTeach()"> 
+    Get Details
+</button>
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>College</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let x of teach">
+        <td>{{x.teacherID}}</td>
+        <td>{{x.teacherName}}</td>
+        <td>{{x.teacherSubject}}</td>
+        <td>{{x.teacherClg}}</td>
+    </tr>
+</tbody>
+</table>
